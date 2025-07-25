@@ -34,8 +34,8 @@ publishing {
             
             // 添加POM元数据
             pom {
-                name = 'My AAR Library'
-                description = 'A library packaged as AAR'
+                name = 'ijkplayer'
+                description = 'ijkplayer'
                 url = 'https://github.com/iboxsandroid/ibjplayerview'
                 
                 licenses {
