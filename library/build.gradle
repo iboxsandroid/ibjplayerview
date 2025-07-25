@@ -30,7 +30,7 @@ publishing {
             version = '1.0.1'
             
             // 指定AAR文件路径
-            artifact("$projectDir/src/main/aar/your-library.aar")
+            artifact("$projectDir/src/main/aar/ijkplayer.aar")
             
             // 添加POM元数据
             pom {
