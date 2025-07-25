@@ -27,7 +27,7 @@ publishing {
         aar(MavenPublication) {
             groupId = 'com.github.iboxsandroid'
             artifactId = 'ibjplayerview'
-            version = '1.0.0'
+            version = '1.0.1'
             
             // 指定AAR文件路径
             artifact("$projectDir/src/main/aar/your-library.aar")
