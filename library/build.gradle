@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+android {
+    compileSdkVersion 33
+    
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+}
+
+publishing {
+    publications {
+        aar(MavenPublication) {
+            groupId = 'com.github.iboxsandroid'
+            artifactId = 'ibjplayerview'
+            version = '1.0.0'
+            
+            artifact("$projectDir/src/main/aar/ibjplayerview.aar")
+        }
+    }
+}
